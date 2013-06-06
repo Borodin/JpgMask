@@ -8,7 +8,7 @@ JpgMask
 Скачайте файл [jpgmask.js](https://raw.github.com/Borodin/JpgMask/master/lib/jpgmask.js) и вставте его в html страницу.
 
 ```html
-<script src="js/three.min.js"></script>
+<script src="jpgmask.js"></script>
 ```
 
 Это код делает прозрачными изображения, у которых в атрибуте mask указан путь к изображению маски.

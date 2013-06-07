@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Demo</title>
-	<script type="text/javascript" src="jpgmask.js"></script>
+	<script type="text/javascript" src="../lib/jpgmask.js"></script>
 	<style>
 		img{
 			background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgARgDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC);
@@ -11,7 +11,16 @@
 	</style>
 </head>
 <body>
+	<h3>Original:</h3>
+	<img src="dice.png">
+	<h3>JpgMask:</h3>
 	<img src="dice.jpg" mask="dice_mask.jpg">
-	<img src="cloud.jpg" mask="cloud_mask.jpg">
+	<p>29,3 КБ image + 7,31 КБ mask = 36,6 КБ что меньше оригинального размера 215 КБ в 6 раз.</p>
+
+	<h3>Original:</h3>
+	<img src="cloud.png"><br>
+	<h3>JpgMask:</h3>
+	<img src="cloud.jpg" mask="cloud_mask.jpg"><br>
+	<p>31,9 КБ image + 10,2 КБ mask = 31,9 КБ что меньше оригинального размера 1290,17 МБ в 40 раз.</p>
 </body>
 </html>

@@ -1,8 +1,8 @@
 JpgMask
 =======
-![demo](https://raw.github.com/Borodin/JpgMask/master/demo/demo.png)
 Позволяет использовать JPG файлы с в качестве маски изображения.
 [Демонстрация работы](http://borodinart.ru/projects/JpgMask/demo/index.html)
+![demo](https://raw.github.com/Borodin/JpgMask/master/demo/demo.png)
 
 
 ### Использование ###
